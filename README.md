@@ -1,4 +1,4 @@
-# Impact_Evaluation
+# Impact Evaluation
 
 ## Executive Summary
 This project leveraged the Reality Check (RC) data to analyse how different concerns and attitudes, such as long-term optimism, influence different consumer mindsets in the current socio-economic climate. By identifying key drivers for mindsets like "Confident" and "Resentful," the analysis offers actionable insights that can improve targeted marketing strategies for clients. The potential impact on client revenue is significant, with estimated gains of up to £20 million across 20 clients. While the study faced limitations such as class imbalance, it provides a strong foundation for future, more sophisticated analyses.
@@ -16,8 +16,8 @@ In this context, the concerns and attitudes refer to a wide range factors, such 
 
 
 ## References
-1.	[](https://store.mintel.com/report/uk-consumers-and-the-cost-of-living-market-report)
-2.	[](https://www.pwc.co.uk/services/risk/rethink-risk/insights/how-the-cost-of-living-crisis-is-changing-people-s-behaviours-an.html)
+1.	[UK Consumers and The Cost of Living Market Report](https://store.mintel.com/report/uk-consumers-and-the-cost-of-living-market-report)
+2.	[How The Cost of Living Crisis is Changing People's Behaviours](https://www.pwc.co.uk/services/risk/rethink-risk/insights/how-the-cost-of-living-crisis-is-changing-people-s-behaviours-an.html)
 3.	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7032893/
 4.	https://medium.com/analytics-vidhya/removing-multi-collinearity-for-linear-and-logistic-regression-f1fa744f3666
 5.	https://godatadrive.com/blog/a-basic-guide-to-logistic-regression 
