@@ -117,7 +117,7 @@ This project aimed to understand how various concerns and attitudes, such as lon
 6.	[Personal Data](https://gdpr-info.eu/issues/personal-data/)
 7.	[Data Protection](https://www.gov.uk/data-protection)
 8.	[Classification Threshold](https://www.iguazio.com/glossary/classification-threshold/)
-9.	BPP University. Level 6 BSc Data Science. Data Science Professional Practice Module. Horizon Scanning Lecture Slides.
+9.	BPP University. Level 6 BSc Data Science. Data Science Professional Practice Module. Horizon Scanning Lecture Slides. 1st Aug 2024.
 10.	[How to Deal with Imabalanced Classification and Regression Data](https://neptune.ai/blog/how-to-deal-with-imbalanced-classification-and-regression-data)
 11.	[Nonresponse Bias Explained](https://www.scribbr.co.uk/bias-in-research/nonresponse-bias-explained/)
 12.	[What is Recall Bias?](https://www.scribbr.co.uk/bias-in-research/what-is-recall-bias/)
