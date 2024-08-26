@@ -79,6 +79,35 @@ Figure 11. Media Planning Implications for each Segment.
 
 Upon model evaluation, the overall performance was consistently strong. For example, in the Surviving segment model, the ROC curve (see Figure 12) was used to determine the optimal threshold of 0.35, defined as the upper-left corner of the curve.(8) This threshold was then applied to generate the confusion matrix (see Figure 13), which in turn calculated the model’s accuracy, precision, recall and F1 score (see Figure 14). Specifically, the Surviving segment model demonstrated a high precision score of 0.96, indicating the model’s accuracy in predicting membership within this segment. Additionally, a recall score of 0.88 suggests that the model rarely misses true positives. The F1 score, which combines precision and recall, further reflects the model’s balanced and robust performance.
 
+![Surviving ROC curve](assets/img/Picture12.png)
+
+Figure 12. ROC curve of the Surviving Segment. Sensitivity and Specificity is specified to show where the optimal threshold lies.
+
+![Surviving Conusion Matrix](assets/img/Picture13.png)
+
+Figure 13. Confusion Matrix of the Surviving Segment. 
+
+![Model Evaludation Metrics](assets/img/Picture14.png)
+
+Figure 14. Model Evaluation Metrics for each Segment.
+
+## Value Estimation
+The insights from this analysis could significantly boost client sales and revenue. Using Fermi Estimation, if targeted campaigns increase conversion rates by 2% over one year, a client with £50 million in annual media-driven revenue could gain an additional £1 million in revenue.(9) Across 20 clients, this could potentially generate £20 million in added revenue.
+
+The estimated cost of the project, including 60 hours for data collection, processing, analysis and reporting at an hourly rate of £20, sums up to £1,200. Given these projections, the potential return on investment (ROI) would highly outweigh the costs, making this analysis highly valuable for driving business metrics for clients.
+
+## Limitations and Future Considerations
+The analysis provided valuable insights into the factors of different mindsets; however, several limitations should be considered. A key limitation was the decision not to address class imbalance using oversampling methods such as Synthetic Minority Over-sampling Technique (SMOTE). Class imbalance can lead to models that overpredict the majority class, reducing accuracy for the minority class and impacting the overall effectiveness of the analysis.(10)
+
+Another limitation is the nature of survey data, which can lead to non-response and recall biases. Non-response bias can result in data that does not accurately reflect the real world while recall bias can result in inaccurate data as respondents may rely on memory, which can be flawed.(11,12) 
+
+For future iterations, class imbalance should be addressed using techniques like SMOTE to enhance model performance. Additionally, exploring advanced machine learning models such as random forests or gradient boosting could offer more sophisticated insights by better handling complex interactions between variables.(13)
+
+Finally, future work should adopt methods to mitigate non-response bias, such as using weighting techniques, to ensure the survey data more accurately represents the general population, leading to more reliable and actionable insights.
+
+## Conclusion
+This project aimed to understand how various concerns and attitudes, such as long-term optimism, predict an individual’s likelihood of adopting a specific mindset in the current socio-economic climate. The analysis provided valuable insights into the key drivers behind different segments, offering actionable implications that could significantly refine targeted marketing strategies. By identifying factors that influence these mindsets, media campaigns can be more effectively tailored, potentially leading to increased client revenue. While the analysis had its limitations like class imbalance, the findings lay the groundwork for more advanced future analyses that can further boost client outcomes.
+
 ## References
 1.	[UK Consumers and The Cost of Living Market Report](https://store.mintel.com/report/uk-consumers-and-the-cost-of-living-market-report)
 2.	[How The Cost of Living Crisis is Changing People's Behaviours](https://www.pwc.co.uk/services/risk/rethink-risk/insights/how-the-cost-of-living-crisis-is-changing-people-s-behaviours-an.html)
@@ -88,8 +117,8 @@ Upon model evaluation, the overall performance was consistently strong. For exam
 6.	[Personal Data](https://gdpr-info.eu/issues/personal-data/)
 7.	[Data Protection](https://www.gov.uk/data-protection)
 8.	[Classification Threshold](https://www.iguazio.com/glossary/classification-threshold/)
-9.	Topic 7 DSPP lecture.
-10.	https://neptune.ai/blog/how-to-deal-with-imbalanced-classification-and-regression-data 
-11.	https://www.scribbr.co.uk/bias-in-research/nonresponse-bias-explained/
-12.	https://www.scribbr.co.uk/bias-in-research/what-is-recall-bias/
-13.	https://medium.com/@nischitasadananda/the-battle-between-logistic-regression-random-forest-classifier-xg-boost-and-support-vector-46d773c70f41
+9.	BPP University. Level 6 BSc Data Science. Data Science Professional Practice Module. Horizon Scanning Lecture Slides.
+10.	[How to Deal with Imabalanced Classification and Regression Data](https://neptune.ai/blog/how-to-deal-with-imbalanced-classification-and-regression-data)
+11.	[Nonresponse Bias Explained](https://www.scribbr.co.uk/bias-in-research/nonresponse-bias-explained/)
+12.	[What is Recall Bias?](https://www.scribbr.co.uk/bias-in-research/what-is-recall-bias/)
+13.	[The Battle Between Logistic Regrssion Random Forest Classifier XG Boost and Support Vector](https://medium.com/@nischitasadananda/the-battle-between-logistic-regression-random-forest-classifier-xg-boost-and-support-vector-46d773c70f41)
