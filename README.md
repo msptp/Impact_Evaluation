@@ -39,7 +39,45 @@ Model evaluation involved generating predictions, creating ROC curves to determi
 Ethical considerations and data privacy concerns were upheld in this analysis. The survey data did not contain any personally identifiable information (PII), ensuring that the respondents’ identities remained confidential. Each observation was anonymised and represented by a unique identifier, safeguarding user privacy. This aligns with best practices within both the Data Protection Act (DPA) 2018 and General Data Protection Regulation (GDPR).(6,7)
 
 ## Results
+The analysis provided valuable insights into factors influencing each mindset. Key drivers were identified for most segments, as illustrated in Figures 4 to 9, apart from the Frustrated segment, which presented a unique case with only a single significant predictor showing an odds ratio of less than 1. For instance, Figure 4 demonstrates that long-term optimism is the strongest predictor of belonging in the Confident segment. Those with higher long-term optimism are 3.5 times more likely to be classified as “Confident” compared to those with lower levels of long-term optimism. This suggests that optimism plays a crucial role in shaping a confident mindset.
 
+Conversely, Figure 7 reveals that concern about job security or unemployment increases the likelihood of being in the Resentful group by 1.5 times. This indicates that heightened worries about job stability are significantly associated with a more resentful outlook.
+
+![Confident Results](assets/img/Picture4.png)
+
+Figure 4. Driving factors in the Confident Segment. The numbers represent odds ratios.
+
+![Carefree Results](assets/img/Picture5.png)
+
+Figure 5. Driving factors in the Carefree Segment. The numbers represent odds ratios.
+
+![Coping Results](assets/img/Picture6.png)
+
+Figure 6. Driving factors in the Coping Segment. The numbers represent odds ratios.
+
+![Resentful Results](assets/img/Picture7.png)
+
+Figure 7. Driving factors in the Resentful Segment. The numbers represent odds ratios.
+
+![Frustrated Results](assets/img/Picture8.png)
+
+Figure 8. Driving factors in the Frustrated Segment. The numbers represent odds ratios.
+
+![Surviving Results](assets/img/Picture9.png)
+
+Figure 9. Driving factors in the Surviving Segment. The numbers represent odds ratios.
+
+Figure 10 highlights common features across the models, indicating their importance in influencing the mindsets. These findings can be applied to create recommendations and media implications for our clients (see Figure 11).
+
+![Common Features Across Models](assets/img/Picture10.png)
+
+Figure 10. Common Driving Factors across Models. 
+
+![Recommendations](assets/img/Picture11.png)
+
+Figure 11. Media Planning Implications for each Segment.
+
+Upon model evaluation, the overall performance was consistently strong. For example, in the Surviving segment model, the ROC curve (see Figure 12) was used to determine the optimal threshold of 0.35, defined as the upper-left corner of the curve.(8) This threshold was then applied to generate the confusion matrix (see Figure 13), which in turn calculated the model’s accuracy, precision, recall and F1 score (see Figure 14). Specifically, the Surviving segment model demonstrated a high precision score of 0.96, indicating the model’s accuracy in predicting membership within this segment. Additionally, a recall score of 0.88 suggests that the model rarely misses true positives. The F1 score, which combines precision and recall, further reflects the model’s balanced and robust performance.
 
 ## References
 1.	[UK Consumers and The Cost of Living Market Report](https://store.mintel.com/report/uk-consumers-and-the-cost-of-living-market-report)
@@ -49,7 +87,7 @@ Ethical considerations and data privacy concerns were upheld in this analysis. T
 5.	[A Basic Guide to Logistic Regression](https://godatadrive.com/blog/a-basic-guide-to-logistic-regression)
 6.	[Personal Data](https://gdpr-info.eu/issues/personal-data/)
 7.	[Data Protection](https://www.gov.uk/data-protection)
-8.	https://www.iguazio.com/glossary/classification-threshold/
+8.	[Classification Threshold](https://www.iguazio.com/glossary/classification-threshold/)
 9.	Topic 7 DSPP lecture.
 10.	https://neptune.ai/blog/how-to-deal-with-imbalanced-classification-and-regression-data 
 11.	https://www.scribbr.co.uk/bias-in-research/nonresponse-bias-explained/
